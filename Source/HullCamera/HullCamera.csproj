@@ -58,11 +58,6 @@
   </Target>
   -->
   <ItemGroup>
-    <Compile Include="AssemblyVersion.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>AssemblyVersion.tt</DependentUpon>
-    </Compile>
     <Compile Include="MuMechModuleHullCamera.cs" />
     <Compile Include="HullCameraZoom.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -87,16 +82,17 @@
     <Compile Include="VHoldRoller.cs" />
     <Compile Include="MovieTime.cs" />
     <Compile Include="CameraFilters\CameraFilterDockingCam.cs" />
+    <Compile Include="Properties\Version.cs">
+      <DependentUpon>Version.tt</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\MovieTime.shader" />
     <None Include="Resources\NightVision.shader" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="AssemblyVersion.tt">
+    <None Include="Properties\Version.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>AssemblyVersion.cs</LastGenOutput>
-    </Content>
+      <LastGenOutput>Version.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
