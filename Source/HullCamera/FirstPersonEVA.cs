@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,7 +12,7 @@ using UnityEngine;
 namespace HullcamVDS {
 
 public class EVACamera : MuMechModuleHullCamera
-    {        
+{        
     [KSPField]
     new public float cameraFoVMax = 60;
     
@@ -121,21 +122,81 @@ public class EVACamera : MuMechModuleHullCamera
 //Add EVA camera to all Kerbals on EVA
 [KSPAddon(KSPAddon.Startup.MainMenu, true)]
 public class initKerbalEVA : UnityEngine.MonoBehaviour {
+	private static readonly String[] KERBALS_TO_MANGLE = {"kerbalEVA", "kerbalEVAfemale", "kerbalEVAVintage", "kerbalEVAfemaleVintage"};
+	private static readonly int WAIT_ROUNDS = 120; // @60fps, would render 2 secs.
+	internal static bool isConcluded = false;
+
 	public void Awake() {
-           
+        StartCoroutine("InstrumentKerbals");
+	}
+
+	private IEnumerator InstrumentKerbals()
+    {
+        initKerbalEVA.isConcluded = false;
+        Debug.Log("HullcamVDS::InstrumentKerbals: Started");
+
+        for (int i = WAIT_ROUNDS; i >= 0 && null == PartLoader.LoadedPartsList; --i)
+        {
+            yield return null;
+            if (0 == i) Debug.LogError("HullcamVDS::Timeout waiting for PartLoader.LoadedPartsList!!");
+        }
+
+		 // I Don't know if this is needed, but since I don't know that this is not needed,
+		 // I choose to be safe than sorry!
+        {
+            int last_count = int.MinValue;
+		    for (int i = WAIT_ROUNDS; i >= 0; --i)
+			{
+                if (last_count == PartLoader.LoadedPartsList.Count) break;
+				last_count = PartLoader.LoadedPartsList.Count;
+                yield return null;
+                if (0 == i) Debug.LogError("HullcamVDS::Timeout waiting for PartLoader.LoadedPartsList.Count!!");
+			}
+		}
+
+        yield return this.InstrumentKerbals_task();
+        Debug.Log("HullcamVDS::InstrumentKerbals: Concluded");
+        initKerbalEVA.isConcluded = true;
+	}
+
+	private IEnumerator InstrumentKerbals_task()
+	{
 		ConfigNode EVA = new ConfigNode("MODULE");
 		EVA.AddValue("name", "EVACamera");
 		EVA.AddValue("cameraName", "EVACam");
 
-		try {
-						
-			PartLoader.getPartInfoByName("kerbalEVA").partPrefab.AddModule(EVA);
+		foreach (String pn in KERBALS_TO_MANGLE) 
+		{
+			Debug.Log(String.Format("HullcamVDS::InstrumentKerbals: Instrumenting {0}.", pn));
+			AvailablePart p = PartLoader.getPartInfoByName(pn);
+			
+			if (null != p)
+			{
+				for (int i = WAIT_ROUNDS; i >= 0 && null == p.partPrefab && null == p.partPrefab.Modules && p.partPrefab.Modules.Count < 1; --i)
+	            {
+					yield return null;
+	                if (0 == i) Debug.LogErrorFormat("HullcamVDS::Timeout waiting for {0}.prefab.Modules!!", p.name);
+				}
+				Debug.Log(String.Format("HullcamVDS::InstrumentKerbals: {0}.partPrefab.Modules is {1}", pn, (null == p.partPrefab.Modules)?"NULL!!":"not null"));
+				try
+				{
+					Debug.Log(String.Format("HullcamVDS::InstrumentKerbals: before changing {0}", pn));
+					p.partPrefab.AddModule(EVA);
+					Debug.Log(String.Format("HullcamVDS::InstrumentKerbals: after changing {0}", pn));
+				}
+				catch (Exception e)
+				{
+					Debug.LogException(e);
+				}
+				Debug.Log(String.Format("HullcamVDS::InstrumentKerbals: {0}.partPrefab.Modules is {1}", pn, (null == p.partPrefab.Modules)?"NULL!!":"not null"));
+				if (null != p.partPrefab.Modules)
+				{ 
+					Debug.Log(String.Format("HullcamVDS::InstrumentKerbals: {0}.partPrefab.Modules has {1} modules.", pn, p.partPrefab.Modules.Count));
+					foreach (PartModule m in p.partPrefab.Modules)
+						Debug.Log(String.Format("HullcamVDS::InstrumentKerbals: {0}.partPrefab.Modules has the module {1}.", pn, m.moduleName));
+				}
+			}
 		}
-		catch{}
-		try { PartLoader.getPartInfoByName("kerbalEVAfemale").partPrefab.AddModule(EVA); 
-		}
-		catch {}
-	}
+    }
 }
-
 }
