@@ -178,6 +178,12 @@ public class initKerbalEVA : UnityEngine.MonoBehaviour {
 	                if (0 == i) Debug.LogErrorFormat("HullcamVDS::Timeout waiting for {0}.prefab.Modules!!", p.name);
 				}
 				Debug.Log(String.Format("HullcamVDS::InstrumentKerbals: {0}.partPrefab.Modules is {1}", pn, (null == p.partPrefab.Modules)?"NULL!!":"not null"));
+				if (null != p.partPrefab.Modules)
+				{ 
+					Debug.Log(String.Format("HullcamVDS::InstrumentKerbals: {0}.partPrefab.Modules has {1} modules.", pn, p.partPrefab.Modules.Count));
+					foreach (PartModule m in p.partPrefab.Modules)
+						Debug.Log(String.Format("HullcamVDS::InstrumentKerbals: {0}.partPrefab.Modules has the module {1}.", pn, m.moduleName));
+				}
 				try
 				{
 					Debug.Log(String.Format("HullcamVDS::InstrumentKerbals: before changing {0}", pn));
@@ -193,7 +199,7 @@ public class initKerbalEVA : UnityEngine.MonoBehaviour {
 				{ 
 					Debug.Log(String.Format("HullcamVDS::InstrumentKerbals: {0}.partPrefab.Modules has {1} modules.", pn, p.partPrefab.Modules.Count));
 					foreach (PartModule m in p.partPrefab.Modules)
-						Debug.Log(String.Format("HullcamVDS::InstrumentKerbals: {0}.partPrefab.Modules has the module {1}.", pn, m.moduleName));
+						Debug.Log(String.Format("HullcamVDS::InstrumentKerbals: {0}.partPrefab.Modules has the module {1}.", pn, m.moduleName??"<NULL!>"));
 				}
 			}
 		}
