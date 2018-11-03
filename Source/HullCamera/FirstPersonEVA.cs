@@ -119,6 +119,7 @@ public class EVACamera : MuMechModuleHullCamera
     }
 }
 
+#if false
 //Add EVA camera to all Kerbals on EVA
 [KSPAddon(KSPAddon.Startup.MainMenu, true)]
 public class initKerbalEVA : UnityEngine.MonoBehaviour {
@@ -205,4 +206,4 @@ public class initKerbalEVA : UnityEngine.MonoBehaviour {
 		}
     }
 }
-}
+#endif
