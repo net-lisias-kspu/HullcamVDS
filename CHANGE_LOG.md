@@ -1,5 +1,24 @@
 # Hullcam VDS /L Unofficial :: Change Log
 
+* 2015-0809: 0.50 (Albert_VDS) for KSP 0.7.3
+	+ V0.50 10-Aug-2015
+			- Added a modified version of bernierm's MovieTime.
+			- Added docking camera, filters and target readouts to all docking ports.
+			- Added new camera: "Kazzelblad 500". This camera uses a black and white
+	+ filter.
+			- Added new camera: "NightVisionCam". This camera uses a night vision filter.
+			- Added black and white filter to "Basic Hull Camera Deluxe".
+			- Added grainy color TV filter to "BoosterCam".
+			- Rearranged of every camera in the tech tree. It starts of with black and
+	+ white and better camera's can be unlocked later on.
+			- Fixed camera from starting in max zoom. Camera's now start at minimum zoom.
+			- Fixed cycle buttons "-" and "+", cycling to the main camera works now as
+	+ intended.
+			- Fixed bug where the main camera would get stuck if a non-current vessel
+	+ camera it got passed 2.5km. Camera will now exit to the main camera if before
+	+ it's 2.5km away.
+			- Fixed a loading bug which would break cycling to a camera.
+			- Other small fixes.
 * 2015-0508: 0.40 (Albert_VDS) for KSP 0.7.3
 	+ No changelog provided
 * 2015-0501: 0.34.1 (Albert_VDS) for KSP 0.7.3
