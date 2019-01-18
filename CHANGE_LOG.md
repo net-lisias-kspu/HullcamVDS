@@ -1,5 +1,7 @@
 # Hullcam VDS /L Unofficial :: Change Log
 
+* 2016-1113: 0.1.5 (linuxgurugamer) for KSP 1.2.1
+	+ Updated shaders for Linux and OSX
 * 2016-1103: 0.1.4.1 (linuxgurugamer) for KSP 1.2.1
 	+ No changelog provided
 * 2016-1103: 0.1.4 (linuxgurugamer) for KSP 1.2
