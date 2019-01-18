@@ -1,6 +1,7 @@
 # Hullcam VDS /L Unofficial :: Change Log
 
 * 2019-0109: 0.1.9.13 (linuxgurugamer) for KSP 1.5.1
+	+ No changelog provided
 * 2018-1202: 0.1.9.12 (linuxgurugamer) for KSP 1.5.1
 	+ Fixed resetting the control point when using the Alt (on Windows) when cycling past the last camera
 * 2018-1130: 0.1.9.11 (linuxgurugamer) for KSP 1.5.1
@@ -78,36 +79,30 @@ Got all cameras working with RP
 	+ Initial release
 * 2016-0807: 0.1.0 (linuxgurugamer) for KSP 1.1.3
 	+ No changelog provided
-* 2016-0331: 0.52 (Albert_VDS) for KSP 0.7.3
+* 2016-0331: 0.52 (Albert_VDS) for KSP 1.1
 	+ Test version for 1.1
-* 2015-1111: 0.51 (Albert_VDS) for KSP 0.7.3
+* 2015-1111: 0.51 (Albert_VDS) for KSP 1.0.5
 	+ Compiled against 1.0.5
-* 2015-0809: 0.50 (Albert_VDS) for KSP 0.7.3
-	+ V0.50 10-Aug-2015
-			- Added a modified version of bernierm's MovieTime.
-			- Added docking camera, filters and target readouts to all docking ports.
-			- Added new camera: "Kazzelblad 500". This camera uses a black and white
-	+ filter.
-			- Added new camera: "NightVisionCam". This camera uses a night vision filter.
-			- Added black and white filter to "Basic Hull Camera Deluxe".
-			- Added grainy color TV filter to "BoosterCam".
-			- Rearranged of every camera in the tech tree. It starts of with black and
-	+ white and better camera's can be unlocked later on.
-			- Fixed camera from starting in max zoom. Camera's now start at minimum zoom.
-			- Fixed cycle buttons "-" and "+", cycling to the main camera works now as
-	+ intended.
-			- Fixed bug where the main camera would get stuck if a non-current vessel
-	+ camera it got passed 2.5km. Camera will now exit to the main camera if before
-	+ it's 2.5km away.
-			- Fixed a loading bug which would break cycling to a camera.
-			- Other small fixes.
-* 2015-0508: 0.40 (Albert_VDS) for KSP 0.7.3
+* 2015-0809: 0.50 (Albert_VDS) for KSP 0.25
+	+ Added a modified version of bernierm's MovieTime.
+	+ Added docking camera, filters and target readouts to all docking ports.
+	+ Added new camera: "Kazzelblad 500". This camera uses a black and white filter.
+	+ Added new camera: "NightVisionCam". This camera uses a night vision filter.
+	+ Added black and white filter to "Basic Hull Camera Deluxe".
+	+ Added grainy color TV filter to "BoosterCam".
+	+ Rearranged of every camera in the tech tree. It starts of with black and white and better camera's can be unlocked later on.
+	+ Fixed camera from starting in max zoom. Camera's now start at minimum zoom.
+	+ Fixed cycle buttons "-" and "+", cycling to the main camera works now as intended.
+	+ Fixed bug where the main camera would get stuck if a non-current vessel camera it got passed 2.5km. Camera will now exit to the main camera if before it's 2.5km away.
+	+ Fixed a loading bug which would break cycling to a camera.
+	+ Other small fixes.
+* 2015-0508: 0.40 (Albert_VDS) for KSP 0.25
 	+ No changelog provided
-* 2015-0501: 0.34.1 (Albert_VDS) for KSP 0.7.3
+* 2015-0501: 0.34.1 (Albert_VDS) for KSP 0.25
 	+ No changelog provided
-* 2015-0429: 0.34 (Albert_VDS) for KSP 0.7.3
+* 2015-0429: 0.34 (Albert_VDS) for KSP 0.25
 	+ No changelog provided
-* 2014-1217: 0.33 (Albert_VDS) for KSP 0.7.3
+* 2014-1217: 0.33 (Albert_VDS) for KSP 0.25
 	+ No changelog provided
 * 2014-1013: 0.32 (Albert_VDS) for KSP 0.25
 	+ Compiled against 0.25
