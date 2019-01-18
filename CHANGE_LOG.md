@@ -1,5 +1,14 @@
 # Hullcam VDS /L Unofficial :: Change Log
 
+* 2016-1030: 0.1.3 (linuxgurugamer) for KSP 1.2
+```
+Copied patch from RPM 
+Fixed patches for cameras in RPM
+Fixed Telescopes
+Fixed various offsets and rotations
+fixed names in files, so that L-Tech will now have the same camera name as Hullcam
+Got all cameras working with RP
+```
 * 2016-1027: 0.1.2.2 (linuxgurugamer) for KSP 1.2
 	+ No changelog provided
 * 2016-1026: 0.1.2.1 (linuxgurugamer) for KSP 1.2
