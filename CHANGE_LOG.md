@@ -1,5 +1,7 @@
 # Hullcam VDS /L Unofficial :: Change Log
 
+* 2016-0809: 0.1.1 (linuxgurugamer) for KSP 1.1.3
+	+ Updated part cfg
 * 2016-0807: 0.1.0.1 (linuxgurugamer) for KSP 1.1.3
 	+ Initial release
 * 2016-0807: 0.1.0 (linuxgurugamer) for KSP 1.1.3
