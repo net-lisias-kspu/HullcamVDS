@@ -8,6 +8,13 @@
 	+ No changelog provided
 * 2014-0507: 0.2.9.5 (Albert_VDS) for KSP 0.7.3
 	+ No changelog provided
+* 2013-1030: 0.2.9 (Albert_VDS) for KSP 0.7.3
+	+ Added the new camera science module, from L-tech Science, to every camera.
+	+ Added the following new cameras made by Rubber Ducky:
+	+ Launchpad camera - made for being set up around the launchpad for great
+	+ ScienceCam - just a basic all-purpose camera
+	+ NavCam - tiny with a wide FOV, mainly for piloting rovers. Has a static-y overlay built into the model.
+	+ BoosterCam - a variation of aerocam; two cameras built in, facing up and down.
 * 2013-1018: 0.2.8 (Albert_VDS) for KSP 0.7.3
 	+ Small compatibility update
 * 2013-1027: 0.2.7.1 (Albert_VDS) for KSP 0.7.3
