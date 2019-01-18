@@ -1,5 +1,13 @@
 # Hullcam VDS /L Unofficial :: Change Log
 
+* 2018-0511: 0.1.9.3 (linuxgurugamer) for KSP 1.4.3
+	+ Added message to identify current camera when switching
+	+ Added two new config options, both defaulting to true:
+		- DisplayCameraNameWhenSwitching
+		- DisplayVesselNameWhenSwitching
+	+ Added new config option, defaulting to 3 seconds, allowable range is 1-10
+		- MessageDuration
+	+ Commented out all old references to HullCamera and RESOURCE in the parts
 * 2018-0422: 0.1.9.2 (linuxgurugamer) for KSP 1.4.2
 	+ Fixed shaders, thanks to @Kerbas_ad_astra
 * 2018-0418: 0.1.9.1 (linuxgurugamer) for KSP 1.4.2
