@@ -1,5 +1,8 @@
 # Hullcam VDS /L Unofficial :: Change Log
 
+* 2018-1121: 0.1.9.10 (linuxgurugamer) for KSP 1.5.1
+	+ Fixed nullref when using the equals sign and at the end of the list of cameras.
+	+ Added code to allow a docking node to be a target and have the docking info displayed on the docking camera
 * 2018-1105: 0.1.9.9 (linuxgurugamer) for KSP 1.5.1
 	+ Fixed the KSC Launchpad Camera so it now is there
 	+ Removed the obsolete impactTolerance variable
