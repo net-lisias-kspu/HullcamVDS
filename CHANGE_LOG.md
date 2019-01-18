@@ -1,5 +1,8 @@
 # Hullcam VDS /L Unofficial :: Change Log
 
+* 2018-1103: 0.1.9.8 (linuxgurugamer) for KSP 1.5.1
+	+ Removed code which was adding the eva camera at runtime and replaced it with a MM script
+	+ Moved all MM scripts into new folder
 * 2018-1102: 0.1.9.7 (linuxgurugamer) for KSP 1.5.1
 	+ Fixed bug when the expansion is included, due to not finding the vintage kerbal parts
 * 2018-1024: 0.1.9.6 (linuxgurugamer) for KSP 1.5.1
