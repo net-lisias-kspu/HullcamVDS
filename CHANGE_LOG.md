@@ -1,5 +1,10 @@
 # Hullcam VDS /L Unofficial :: Change Log
 
+* 2018-1105: 0.1.9.9 (linuxgurugamer) for KSP 1.5.1
+	+ Fixed the KSC Launchpad Camera so it now is there
+	+ Removed the obsolete impactTolerance variable
+	+ Thanks to @Gordon Dry for this:  patch to avoid the EVA cam to be added when the mod ThroughTheEyes is already installed.
+	+ Simplified the kerbalEVA patch
 * 2018-1103: 0.1.9.8 (linuxgurugamer) for KSP 1.5.1
 	+ Removed code which was adding the eva camera at runtime and replaced it with a MM script
 	+ Moved all MM scripts into new folder
