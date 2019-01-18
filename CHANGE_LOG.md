@@ -1,5 +1,7 @@
 # Hullcam VDS /L Unofficial :: Change Log
 
+* 2018-0901: 0.1.9.4 (linuxgurugamer) for KSP 1.4.5
+	+ Fixed error: Texture 'HullCameraVDS/Parts/hc_wideangle/model000' not found
 * 2018-0511: 0.1.9.3 (linuxgurugamer) for KSP 1.4.3
 	+ Added message to identify current camera when switching
 	+ Added two new config options, both defaulting to true:
