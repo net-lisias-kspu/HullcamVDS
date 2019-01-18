@@ -1,5 +1,9 @@
 # Hullcam VDS /L Unofficial :: Change Log
 
+* 2018-1130: 0.1.9.11 (linuxgurugamer) for KSP 1.5.1
+	+ Reverted change to line 317 in MuMechModuleHullCamera, caused issues with cameras
+	+ Fixed cameras for the inline docking ports to match the navball when the docking port is the active control point
+	+ New feature, holding down Alt (on Windows) when hitting + or - will change the control point to the docking port with the camera, only works on docking ports and the original controlling part
 * 2018-1121: 0.1.9.10 (linuxgurugamer) for KSP 1.5.1
 	+ Fixed nullref when using the equals sign and at the end of the list of cameras.
 	+ Added code to allow a docking node to be a target and have the docking info displayed on the docking camera
