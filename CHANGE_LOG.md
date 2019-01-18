@@ -8,6 +8,18 @@
 	+ No changelog provided
 * 2014-0507: 0.2.9.5 (Albert_VDS) for KSP 0.7.3
 	+ No changelog provided
+* 2013-0915: 0.2.5 (Alvert_VDS) for KSP 0.7.3
+	+ Made the keys configurable using the same config syntax as the game itself. The included config file is the one I made for dvorak, while the default without any config replicates the original behavior. The config can be dropped anywhere in GameData.
+	+ Added a check that the current camera is flight, using a CameraManager
+	+ object referenced in e.g. SteamGauges code. This lets it interact nicely with stuff like IVA views.
+	+ Fixed unreliable action of next/prev keys. The problem was using "-=" instead of "&= ~" to remove a bit.
+	+ Try to replace the map view hack with manually saving and restoring a couple more properties. It seems to work, although I can only guess at the full purpose of the map view hack.
+	+ Glitchy switching between multiple cameras with next/prev keys because they all tried to handle the key.
+	+ Crash if exiting to space center while a camera is active.
+	+ Changed "next camera" and "previous camera" keys to - and = (Minus and Equals)
+	+ Changed "exit hullcam view" key to Backspace.
+	+ Added areocam180 part, which has a 180 rotated camera view.
+	+ Tweak the areaocam and areocam180 field of view.
 * 2013-0910: 0.2.1 (Albert_VDS) for KSP 0.7.3
 	+ Added aerocam, an aerodynamic side mounted camera.
 * 2013-0823: 0.2 (Alvert_VDS) for KSP 0.7.3
