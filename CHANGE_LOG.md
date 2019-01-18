@@ -8,6 +8,8 @@
 	+ No changelog provided
 * 2014-0507: 0.2.9.5 (Albert_VDS) for KSP 0.7.3
 	+ No changelog provided
+* 2013-1018: 0.2.8 (Albert_VDS) for KSP 0.7.3
+	+ Small compatibility update
 * 2013-1027: 0.2.7.1 (Albert_VDS) for KSP 0.7.3
 	+ Added support for the [L-Tech Scientific Stuff mod](http://forum.kerbalspaceprogram.com/threads/53813-0-22-L-Tech-Scientific-Stuff-V1-5)
 * 2013-1025: 0.2.7 (Albert_VDS) for KSP 0.7.3
