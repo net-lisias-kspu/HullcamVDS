@@ -1,5 +1,7 @@
 # Hullcam VDS /L Unofficial :: Change Log
 
+* 2016-1103: 0.1.4.1 (linuxgurugamer) for KSP 1.2.1
+	+ No changelog provided
 * 2016-1103: 0.1.4 (linuxgurugamer) for KSP 1.2
 	+ Updated patches to use AFTER instead of FINAL per Sarbian's note
 * 2016-1030: 0.1.3 (linuxgurugamer) for KSP 1.2
