@@ -1,5 +1,7 @@
 # Hullcam VDS /L Unofficial :: Change Log
 
+* 2018-0422: 0.1.9.2 (linuxgurugamer) for KSP 1.4.2
+	+ Fixed shaders, thanks to @Kerbas_ad_astra
 * 2018-0418: 0.1.9.1 (linuxgurugamer) for KSP 1.4.2
 	+ Disabled log spam due to missing shader
 	+ Updated version file
