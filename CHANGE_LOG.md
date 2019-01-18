@@ -1,5 +1,8 @@
 # Hullcam VDS /L Unofficial :: Change Log
 
+* 2018-0418: 0.1.9.1 (linuxgurugamer) for KSP 1.4.2
+	+ Disabled log spam due to missing shader
+	+ Updated version file
 * 2018-0320: 0.1.9 (linuxgurugamer) for KSP 1.4.1
 	+ Added change suggested by forum user @jebs_sy to have the camera focus on the vessel (center of mass) instead of a part when leaving the hull camera
 	+ Updated for 1.4.1
