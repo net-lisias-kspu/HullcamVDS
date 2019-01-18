@@ -1,5 +1,8 @@
 # Hullcam VDS /L Unofficial :: Change Log
 
+* 2018-0320: 0.1.9 (linuxgurugamer) for KSP 1.4.1
+	+ Added change suggested by forum user @jebs_sy to have the camera focus on the vessel (center of mass) instead of a part when leaving the hull camera
+	+ Updated for 1.4.1
 * 2017-1009: 0.1.8 (linuxgurugamer) for KSP 1.3.1
 	+ Updated for KSP 1.3.1
 * 2017-0612: 0.1.7.1 (linuxgurugamer) for KSP 1.3.0
