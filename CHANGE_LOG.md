@@ -1,5 +1,7 @@
 # Hullcam VDS /L Unofficial :: Change Log
 
+* 2016-1027: 0.1.2.2 (linuxgurugamer) for KSP 1.2
+	+ No changelog provided
 * 2016-1026: 0.1.2.1 (linuxgurugamer) for KSP 1.2
 	+ Removed extra MM dll
 * 2016-1025: 0.1.2 (linuxgurugamer) for KSP 1.2
