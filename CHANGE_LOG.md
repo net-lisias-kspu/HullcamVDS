@@ -8,6 +8,16 @@
 	+ No changelog provided
 * 2014-0507: 0.2.9.5 (Albert_VDS) for KSP 0.7.3
 	+ No changelog provided
+* 2013-1027: 0.2.7.1 (Albert_VDS) for KSP 0.7.3
+	+ Added support for the [L-Tech Scientific Stuff mod](http://forum.kerbalspaceprogram.com/threads/53813-0-22-L-Tech-Scientific-Stuff-V1-5)
+* 2013-1025: 0.2.7 (Albert_VDS) for KSP 0.7.3
+	+ Map bug fixed by a.g. (skybox bug remains)
+	+ Added all parts to the tech tree.
+	+ Added Ordan Industries Telescopes(with permission of hubbazoot and added them to Unmanned Tech.
+	+ Added part Basic Hullcam Deluxe and to Science Tech.
+	+ Added Aerocams to Aerodynamic Systems
+	+ Added Kerbpro to Field Science
+	* **No binary available**
 * 2013-0915: 0.2.5 (Alvert_VDS) for KSP 0.7.3
 	+ Made the keys configurable using the same config syntax as the game itself. The included config file is the one I made for dvorak, while the default without any config replicates the original behavior. The config can be dropped anywhere in GameData.
 	+ Added a check that the current camera is flight, using a CameraManager
