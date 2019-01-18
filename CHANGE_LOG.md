@@ -1,13 +1,18 @@
 # Hullcam VDS /L Unofficial :: Change Log
 
-* 2014-1013: 0.32 (Albert_VDS) for KSP 0.7.3
+* 2014-1013: 0.32 (Albert_VDS) for KSP 0.25
 		- Compiled against 0.25
-* 2014-0907: 0.31 (Albert_VDS) for KSP 0.7.3
+* 2014-0907: 0.31 (Albert_VDS) for KSP 0.24.2
 	+ Compiled against 0.24.2
-* 2014-0823: 0.3 (Albert_VDS) for KSP 0.7.3
+* 2014-0823: 0.3 (Albert_VDS) for KSP 0.23.5
 	+ No changelog provided
-* 2014-0507: 0.2.9.5 (Albert_VDS) for KSP 0.7.3
+* 2014-0507: 0.2.9.5 (Albert_VDS) for KSP 0.23.5
 	+ No changelog provided
+* 2014-0421: 0.2.9.2 (Alvert_VDS) for KSP 0.23.5
+	+ fixed a bug which accidentally slipped in 0.2.9.1
+	+ Source code available as zip file.
+* 2014-0420: 0.2.9.1 (Alvert_VDS) for KSP 0.23.5
+	+ Compiled against 0.23.5
 * 2013-1030: 0.2.9 (Albert_VDS) for KSP 0.7.3
 	+ Added the new camera science module, from L-tech Science, to every camera.
 	+ Added the following new cameras made by Rubber Ducky:
