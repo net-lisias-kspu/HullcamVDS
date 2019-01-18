@@ -1,5 +1,6 @@
 # Hullcam VDS /L Unofficial :: Change Log
 
+* 2019-0109: 0.1.9.13 (linuxgurugamer) for KSP 1.5.1
 * 2018-1202: 0.1.9.12 (linuxgurugamer) for KSP 1.5.1
 	+ Fixed resetting the control point when using the Alt (on Windows) when cycling past the last camera
 * 2018-1130: 0.1.9.11 (linuxgurugamer) for KSP 1.5.1
