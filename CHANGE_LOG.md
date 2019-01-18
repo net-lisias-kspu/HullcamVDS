@@ -1,5 +1,7 @@
 # Hullcam VDS /L Unofficial :: Change Log
 
+* 2018-1102: 0.1.9.7 (linuxgurugamer) for KSP 1.5.1
+	+ Fixed bug when the expansion is included, due to not finding the vintage kerbal parts
 * 2018-1024: 0.1.9.6 (linuxgurugamer) for KSP 1.5.1
 	+ Version bump for 1.5 rebuild
 * 2018-0901: 0.1.9.5 (linuxgurugamer) for KSP 1.4.5
