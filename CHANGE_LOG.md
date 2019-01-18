@@ -1,7 +1,9 @@
 # Hullcam VDS /L Unofficial :: Change Log
 
+* 2014-1217: 0.33 (Albert_VDS) for KSP 0.7.3
+	+ No changelog provided
 * 2014-1013: 0.32 (Albert_VDS) for KSP 0.25
-		- Compiled against 0.25
+	+ Compiled against 0.25
 * 2014-0907: 0.31 (Albert_VDS) for KSP 0.24.2
 	+ Compiled against 0.24.2
 * 2014-0823: 0.3 (Albert_VDS) for KSP 0.23.5
