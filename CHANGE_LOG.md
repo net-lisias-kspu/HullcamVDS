@@ -1,5 +1,7 @@
 # Hullcam VDS /L Unofficial :: Change Log
 
+* 2018-1202: 0.1.9.12 (linuxgurugamer) for KSP 1.5.1
+	+ Fixed resetting the control point when using the Alt (on Windows) when cycling past the last camera
 * 2018-1130: 0.1.9.11 (linuxgurugamer) for KSP 1.5.1
 	+ Reverted change to line 317 in MuMechModuleHullCamera, caused issues with cameras
 	+ Fixed cameras for the inline docking ports to match the navball when the docking port is the active control point
