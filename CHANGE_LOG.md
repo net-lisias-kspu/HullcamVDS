@@ -1,5 +1,7 @@
 # Hullcam VDS /L Unofficial :: Change Log
 
+* 2015-1111: 0.51 (Albert_VDS) for KSP 0.7.3
+	+ Compiled against 1.0.5
 * 2015-0809: 0.50 (Albert_VDS) for KSP 0.7.3
 	+ V0.50 10-Aug-2015
 			- Added a modified version of bernierm's MovieTime.
